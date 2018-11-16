@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+from sys import argv
+
 lines = [
 '  <head>',
 '    <meta charset="utf-8">',
@@ -18,5 +20,8 @@ lines = [
 '    </style>',
 '  </head>'
 ]
+
+if len(argv) > 1:
+    lines[2] = '    <title>{text}</title>'.format(text=argv[1])
 
 print('\n'.join(lines))
