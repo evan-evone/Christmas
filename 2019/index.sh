@@ -8,7 +8,7 @@ echo '' > index.html                                                  # Clear in
 
 echo '<!DOCTYPE html>' > index.html                                   # Declare HTML
 echo '<html lang="en" dir="ltr">' >> index.html                       # Open html tag
-../Build-Assets/head.py "Christmas 2018 - Evan Keeton" >> index.html  # Write header
+../Build-Assets/head.py "Christmas 2019 - Evan Keeton" >> index.html  # Write header
 
 echo '' >> index.html                                                 # Newline for clarity
 echo '  <body>' >> index.html                                         # Open body tag
